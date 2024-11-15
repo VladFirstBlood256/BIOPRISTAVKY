@@ -191,6 +191,7 @@ class LoginWindow(QWidget):
                              f"Space2: {user_data[3]}        {is_ok(user_data[3])}\n"
                              f"Space3: {user_data[4]}        {is_ok(user_data[4])}")
 
+
                 self.password_output.setText(user_info)
             else:
                 self.password_output.setText("Пользователь не найден.")
